@@ -68,7 +68,7 @@ public final class PreferencesProvider {
             }
             public static boolean getShowSearchBar(Context context) {
                 final SharedPreferences preferences = context.getSharedPreferences(PREFERENCES_KEY, 0);
-                return preferences.getBoolean("ui_homescreen_general_search", true);
+                return preferences.getBoolean("ui_homescreen_general_search", false);
             }
             public static boolean getResizeAnyWidget(Context context) {
                 final SharedPreferences preferences = context.getSharedPreferences(PREFERENCES_KEY, 0);
