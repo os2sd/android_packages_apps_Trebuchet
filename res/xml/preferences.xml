@@ -64,7 +64,8 @@
                     android:defaultValue="false" />
                 <CheckBoxPreference android:key="ui_homescreen_general_resize_any_widget"
                     android:title="@string/preferences_interface_homescreen_general_resize_any_widget_title"
-                    android:summary="@string/preferences_interface_homescreen_general_resize_any_widget_summary" />
+                    android:summary="@string/preferences_interface_homescreen_general_resize_any_widget_summary"
+                    android:defaultValue="true" />
                 <CheckBoxPreference android:key="ui_homescreen_general_hide_icon_labels"
                     android:title="@string/preferences_interface_homescreen_general_hide_icon_labels_title"
                     android:summary="@string/preferences_interface_homescreen_general_hide_icon_labels_summary" />
@@ -110,7 +111,7 @@
                 <CheckBoxPreference android:key="ui_drawer_widgets_join_apps"
                     android:title="@string/preferences_interface_drawer_widgets_join_apps_title"
                     android:summary="@string/preferences_interface_drawer_widgets_join_apps_summary"
-                    android:defaultValue="true" />
+                    android:defaultValue="false" />
             </PreferenceCategory>
             <PreferenceCategory android:title="@string/preferences_interface_drawer_scrolling_category">
                 <ListPreference android:key="ui_drawer_scrolling_transition_effect"
