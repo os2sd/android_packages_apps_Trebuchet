@@ -80,10 +80,10 @@ public final class PreferencesProvider {
                 return getBoolean("ui_homescreen_stretch_screens", false);
             }
             public static boolean getShowSearchBar() {
-                return getBoolean("ui_homescreen_general_search", true);
+                return getBoolean("ui_homescreen_general_search", false);
             }
             public static boolean getResizeAnyWidget() {
-                return getBoolean("ui_homescreen_general_resize_any_widget", false);
+                return getBoolean("ui_homescreen_general_resize_any_widget", true);
             }
             public static boolean getHideIconLabels() {
                 return getBoolean("ui_homescreen_general_hide_icon_labels", false);
@@ -139,7 +139,7 @@ public final class PreferencesProvider {
                 return getString("ui_drawer_orientation", "horizontal").equals("vertical");
             }
             public static boolean getJoinWidgetsApps() {
-                return getBoolean("ui_drawer_widgets_join_apps", true);
+                return getBoolean("ui_drawer_widgets_join_apps", false);
             }
             public static String getHiddenApps() {
                 return getString("ui_drawer_hidden_apps", "");
