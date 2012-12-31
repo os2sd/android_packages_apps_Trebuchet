@@ -706,26 +706,24 @@ public class LauncherProvider extends ContentProvider {
         private long addAppShortcut(SQLiteDatabase db, ContentValues values, TypedArray a,
                 PackageManager packageManager, Intent intent) {
             long id = -1;
-            ActivityInfo info;
             String packageName = a.getString(R.styleable.Favorite_packageName);
             String className = a.getString(R.styleable.Favorite_className);
             try {
                 ComponentName cn;
                 try {
                     cn = new ComponentName(packageName, className);
-                    info = packageManager.getActivityInfo(cn, 0);
+                    packageManager.getActivityInfo(cn, 0);
                 } catch (PackageManager.NameNotFoundException nnfe) {
                     String[] packages = packageManager.currentToCanonicalPackageNames(
                         new String[] { packageName });
                     cn = new ComponentName(packages[0], className);
-                    info = packageManager.getActivityInfo(cn, 0);
+                    packageManager.getActivityInfo(cn, 0);
                 }
                 id = generateNewId();
                 intent.setComponent(cn);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
                         Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
                 values.put(Favorites.INTENT, intent.toUri(0));
-                values.put(Favorites.TITLE, info.loadLabel(packageManager).toString());
                 values.put(Favorites.ITEM_TYPE, Favorites.ITEM_TYPE_APPLICATION);
                 values.put(Favorites.SPANX, 1);
                 values.put(Favorites.SPANY, 1);
