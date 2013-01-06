@@ -49,10 +49,6 @@
         <CheckBoxPreference android:key="ui_homescreen_general_search"
             android:title="@string/preferences_interface_homescreen_general_search_title"
             android:summary="@string/preferences_interface_homescreen_general_search_summary"
-            android:defaultValue="false" />
-        <CheckBoxPreference android:key="ui_homescreen_general_resize_any_widget"
-            android:title="@string/preferences_interface_homescreen_general_resize_any_widget_title"
-            android:summary="@string/preferences_interface_homescreen_general_resize_any_widget_summary"
             android:defaultValue="true" />
         <CheckBoxPreference android:key="ui_homescreen_general_hide_icon_labels"
             android:title="@string/preferences_interface_homescreen_general_hide_icon_labels_title"
@@ -72,7 +68,7 @@
         <CheckBoxPreference android:key="ui_homescreen_scrolling_wallpaper_hack"
             android:title="@string/preferences_interface_homescreen_scrolling_wallpaper_hack_title"
             android:summary="@string/preferences_interface_homescreen_scrolling_wallpaper_hack_summary"
-            android:defaultValue="false" />
+            android:defaultValue="@bool/config_workspaceDefaultWallpaperHack" />
         <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:key="ui_homescreen_scrolling_wallpaper_size"
             android:title="@string/preferences_interface_homescreen_scrolling_wallpaper_size_title"
             android:summary="@string/preferences_interface_homescreen_scrolling_wallpaper_size_summary"
