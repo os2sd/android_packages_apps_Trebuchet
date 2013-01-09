@@ -49,7 +49,7 @@
         <CheckBoxPreference android:key="ui_homescreen_general_search"
             android:title="@string/preferences_interface_homescreen_general_search_title"
             android:summary="@string/preferences_interface_homescreen_general_search_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" /> <!-- DON'T CHANGE THIS LINE -->
         <CheckBoxPreference android:key="ui_homescreen_general_hide_icon_labels"
             android:title="@string/preferences_interface_homescreen_general_hide_icon_labels_title"
             android:summary="@string/preferences_interface_homescreen_general_hide_icon_labels_summary" />
