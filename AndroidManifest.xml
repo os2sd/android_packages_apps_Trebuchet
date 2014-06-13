@@ -56,6 +56,8 @@
     <uses-permission android:name="android.permission.BIND_APPWIDGET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
     <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
@@ -186,6 +188,12 @@
                 <action android:name="android.intent.action.PACKAGE_REPLACED"/>
                 <action android:name="android.intent.action.PACKAGE_REMOVED"/>
                 <data android:scheme="package"></data>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.android.launcher3.ThemeChangedReceiver" >
+            <intent-filter>
+                <action android:name="org.cyanogenmod.intent.action.THEME_CHANGED"/>
             </intent-filter>
         </receiver>
 
