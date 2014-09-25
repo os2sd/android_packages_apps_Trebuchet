@@ -275,7 +275,7 @@ public class DeviceProfile {
         for (DeviceProfile p : profiles) {
             points.add(new DeviceProfileQuery(p.minWidthDps, p.minHeightDps, p.iconTextSize));
         }
-        iconTextSize = invDistWeightedInterpolate(minWidth, minHeight, points);
+        iconTextSize = (invDistWeightedInterpolate(minWidth, minHeight, points) + res.getInteger(R.integer.config_icon_text_size_delta));
         iconDrawablePaddingOriginalPx =
                 res.getDimensionPixelSize(R.dimen.dynamic_grid_icon_drawable_padding);
         // AllApps uses the original non-scaled icon text size

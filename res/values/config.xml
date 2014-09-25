@@ -15,6 +15,9 @@
     <bool name="allow_rotation">false</bool>
     <bool name="config_largeIcons">false</bool>
 
+    <!-- Adjust the default text size interpolation with this value -->
+    <integer name="config_icon_text_size_delta">0</integer>
+
     <!-- Max number of page indicators to show -->
     <integer name="config_maxNumberOfPageIndicatorsToShow">21</integer>
 
