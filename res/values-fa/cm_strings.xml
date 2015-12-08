@@ -16,20 +16,11 @@
      limitations under the License.
 -->
 <resources>
-  <string-array name="transition_effect_entries">
-    <item>Bat ere ez</item>
-    <item>Zoom sarkorra</item>
-    <item>Zoom irtenkorra</item>
-    <item>Gorantz biratu</item>
-    <item>Beherantz biratu</item>
-    <item>Kubiko sarkorra</item>
-    <item>Kubiko irtenkorra</item>
-    <item>Pilatu</item>
-    <item>Akordeoia</item>
-    <item>Irauli</item>
-    <item>Zilindro sarkorra</item>
-    <item>Zilindro irtenkorra</item>
-    <item>Zaldiko-maldikoa</item>
-    <item>Ikuspegi orokorra</item>
-  </string-array>
+  <string name="home_screen_settings">تنظیمات صفحه اصلی</string>
+  <string name="search_panel_custom_home">خانه CM</string>
+  <string name="themes_button_text">تم‌ها</string>
+  <string name="scrolling_wallpaper">حرکت کاغذدیواری</string>
+  <string name="preferences_interface_homescreen_custom">انتخاب اندازه سفارشی</string>
+  <string name="scroll_effect_text">جلوه حرکت</string>
+  <string name="home_screen_search_text">نوار جستجو</string>
 </resources>

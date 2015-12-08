@@ -17,19 +17,19 @@
 -->
 <resources>
   <string-array name="transition_effect_entries">
-    <item>Bat ere ez</item>
-    <item>Zoom sarkorra</item>
-    <item>Zoom irtenkorra</item>
-    <item>Gorantz biratu</item>
-    <item>Beherantz biratu</item>
-    <item>Kubiko sarkorra</item>
-    <item>Kubiko irtenkorra</item>
-    <item>Pilatu</item>
-    <item>Akordeoia</item>
-    <item>Irauli</item>
-    <item>Zilindro sarkorra</item>
-    <item>Zilindro irtenkorra</item>
-    <item>Zaldiko-maldikoa</item>
-    <item>Ikuspegi orokorra</item>
+    <item>Brez</item>
+    <item>Približaj</item>
+    <item>Pomanjšaj</item>
+    <item>Zasukaj gor</item>
+    <item>Zasukaj dol</item>
+    <item>Kocka noter</item>
+    <item>Kocka ven</item>
+    <item>Zloži</item>
+    <item>Harmonika</item>
+    <item>Obrni</item>
+    <item>Valj noter</item>
+    <item>Valj ven</item>
+    <item>Vrtiljak</item>
+    <item>Pregled</item>
   </string-array>
 </resources>

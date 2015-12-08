@@ -17,19 +17,19 @@
 -->
 <resources>
   <string-array name="transition_effect_entries">
-    <item>Bat ere ez</item>
-    <item>Zoom sarkorra</item>
-    <item>Zoom irtenkorra</item>
-    <item>Gorantz biratu</item>
-    <item>Beherantz biratu</item>
-    <item>Kubiko sarkorra</item>
-    <item>Kubiko irtenkorra</item>
-    <item>Pilatu</item>
-    <item>Akordeoia</item>
-    <item>Irauli</item>
-    <item>Zilindro sarkorra</item>
-    <item>Zilindro irtenkorra</item>
-    <item>Zaldiko-maldikoa</item>
-    <item>Ikuspegi orokorra</item>
+    <item>هیچ‌کدام</item>
+    <item>بزرگ‌نمایی</item>
+    <item>کوچک‌نمایی</item>
+    <item>چرخش به بالا</item>
+    <item>چرخش به پایین</item>
+    <item>داخل مکعب</item>
+    <item>خارج مکعب</item>
+    <item>توده</item>
+    <item>آکوردیون</item>
+    <item>تلنگر</item>
+    <item>داخل استوانه</item>
+    <item>خارج استوانه</item>
+    <item>چرخ‌وفلک</item>
+    <item>شمای کلی</item>
   </string-array>
 </resources>

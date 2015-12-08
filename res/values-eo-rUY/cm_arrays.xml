@@ -17,19 +17,19 @@
 -->
 <resources>
   <string-array name="transition_effect_entries">
-    <item>Bat ere ez</item>
-    <item>Zoom sarkorra</item>
-    <item>Zoom irtenkorra</item>
-    <item>Gorantz biratu</item>
-    <item>Beherantz biratu</item>
-    <item>Kubiko sarkorra</item>
-    <item>Kubiko irtenkorra</item>
-    <item>Pilatu</item>
-    <item>Akordeoia</item>
-    <item>Irauli</item>
-    <item>Zilindro sarkorra</item>
-    <item>Zilindro irtenkorra</item>
-    <item>Zaldiko-maldikoa</item>
-    <item>Ikuspegi orokorra</item>
+    <item>Nenio</item>
+    <item>Zoom in</item>
+    <item>Zoom out</item>
+    <item>Rotate up</item>
+    <item>Rotate down</item>
+    <item>Cube in</item>
+    <item>Cube out</item>
+    <item>Stack</item>
+    <item>Accordion</item>
+    <item>Flip</item>
+    <item>Cylinder in</item>
+    <item>Cylinder out</item>
+    <item>Carousel</item>
+    <item>Overview</item>
   </string-array>
 </resources>
